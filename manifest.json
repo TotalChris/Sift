@@ -1,0 +1,12 @@
+{
+  "name": "Sift",
+  "description": "Automatic, convenient, and effortless filesystem sorting for Chrome OS devices.",
+  "version": "0.1",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["siftbg.js"]
+    }
+  },
+  "icons": { "16": "16.png", "128": "128.png" }
+}
