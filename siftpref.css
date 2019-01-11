@@ -1,0 +1,46 @@
+:root{
+      --uptheme-bgc: #232323;
+      --uptheme-tc: #FFFFFF;
+      --darktheme-bgc: #232323;
+      --darktheme-tc: #FFFFFF;
+      --lighttheme-bgc: #FFFFFF;
+      --lighttheme-tc: #000000;
+    }
+      @font-face {
+        font-family: Product-Sans;
+        src: url(PSR.ttf);
+      }
+      body{
+        background-color: var(--uptheme-bgc);
+      }
+      .maintitle{
+        font-family: Product-Sans;
+        color: var(--uptheme-tc);
+        font-size: 18px;
+        margin: auto;
+      }
+      .titlebar{
+        display: flex;
+        position: fixed;
+        top: 0;
+        height: 30;
+        width: 100%;
+        background: var(--uptheme-bgc);
+        justify-content: center;
+        align-items: center;
+      }
+      .card-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: ;
+        
+      }
+      .card{
+        height: 100px;
+        width: 600px;
+        border-radius: 15px;
+        background: #fc00ff; /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #fc00ff, #00dbde); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #fc00ff, #00dbde); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      }
